@@ -1,159 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Lupik - Guardería y Hotel Canino</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lupik Guardería y hotel canino</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="#" class="header__img"></a>
+                <p class="header__title">LUPIK</p>
+                <span class="header__text">Guardería y hotel canino</span>
+            </div>
 
-  <body>
-    <main class="main-content">
-      <div class="main-video" id="main">
-        <section class="video-promo">
-          <h1>Lupik</h1>
-          <p>Guardería y Hotel Canino</p>
-          <div class="city">
-            <ul>
-              <li>FUNZA</li>
-              <li>MOSQUERA</li>
-              <li>MADRID</li>
-            </ul>
-          </div>
-          <a type="button" href="#home" class="btn-primary">Conocer más</a>
-        </section>
-        <video muted autoplay loop>
-          <source src="video/guarderia.mp4" type="video/mp4" />
-        </video>
-        <div class="capa"></div>
-      </div>
-
-      <header class="header">
-        <div class="logo">
-          <a href="#home">
-            <img src="img/LOGO.png" alt="LogoLupik" />
-          </a>
-
-          <h1>Lupik</h1>
-          <p>Guardería y Hotel Canino</p>
+            <label for="menu" class="nav__label">
+                <img src="img/menu.svg" alt="menu" class="nav__img">
+            </label>
+            <input type="checkbox" name="menu" id="menu" class="nav__input">
+            
+            <div class="header__menu">
+                <a href="#" class="header__link">Inicio</a>
+                <a href="#about" class="header__link">Sobre Nosotros</a>
+                <a href="#portafolio" class="header__link">Nuestro trabajo</a>
+                <a href="#contact" class="header__link">Contacto</a>
+            </div>
         </div>
+    </header>
 
-        <nav class="navbar" id="home">
-          <ul>
-            <li>
-              <a href="#home">HOME</a>
-            </li>
-            <li>
-              <a href="pages/servicios.html">SERVICIOS</a>
-            </li>
-            <li>
-              <a href="#otros">OTROS</a>
-            </li>
-            <li>
-              <a href="pages/nosotos.html">NOSOTROS</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section class="services" id="services">
-        <h2>SERVICIOS</h2>
-        <article class="card-services G">
-          <h3>Guardería</h3>
-          <img src="https://via.placeholder.com/250x180" alt="" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia,
-            quaerat.
-          </p>
-          <a href="" class="btn-primary">Conocer</a>
-        </article>
-        <article class="card-services H24">
-          <h3>Hotel 24/7</h3>
-          <img src="https://via.placeholder.com/250x180" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-            nihil!
-          </p>
-          <a href="" class="btn-primary">Conocer</a>
-        </article>
-        <article class="card-services GM">
-          <h3>Guardería Medicada</h3>
-          <img src="https://via.placeholder.com/250x180" alt="" />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, non?
-          </p>
-          <a href="" class="btn-primary">Conocer</a>
-        </article>
-        <article class="card-services HM">
-          <h3>Hotel medicado</h3>
-          <img src="https://via.placeholder.com/250x180" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Praesentium, fuga.
-          </p>
-          <a href="" class="btn-primary">Conocer</a>
-        </article>
-      </section>
-      <section class="otros" id="otros">
-        <h2>Servicios extra</h2>
-        <article class="card-otros TPP">
-          <h3>Transporte puerta a puerta</h3>
-          <img src="https://via.placeholder.com/400x180" alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure,
-            tenetur!
-          </p>
-        </article>
-        <article class="card-otros AV">
-          <h3>Asistencia medico veterinaria</h3>
-          <img src="https://via.placeholder.com/400x180" alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure,
-            tenetur!
-          </p>
-        </article>
-      </section>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__container">
+                <figure class="hero__picture">
+                    <img src="img/LOGO.png" alt="" class="hero__img">
+                </figure>
+                <div class="hero__texts">
+                    <h2 class="hero__title">LUPIK</h2>
+                    <p class="hero__subtitle">Guardería y hotel canino</p>
+                    <p class="hero__text">Mosquera, Funza y Madrid</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="about" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+
+        <section class="about" >
+            <div class="about__container container">
+                <figure class="about__picture">
+                    <img src="img/Team work.svg" alt="About" class="about__img">
+                </figure>
+                <div class="about__texts">
+                    <h2 class="about__title">¿Quiénes Somos?</h2>
+                    <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia recusandae aspernatur explicabo suscipit alias adipisci fugit asperiores deleniti nisi, amet assumenda beatae nesciunt libero est eaque. Culpa molestias nihil vero cupiditate recusandae unde provident et, ipsa explicabo autem nemo libero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum perspiciatis quibusdam consequatur iste, sed minus explicabo. Fugiat vero accusamus est!</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="portafolio" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+
+        <section class="portafolio" >
+            <div class="portafolio__container container">
+                <h2 class="title">Nuestros servicios</h2>
+                <div class="portafolio__cards">
+                    <article class="portafolio__card">
+                        <img src="img/card1.jpg" alt="" class="card__img">
+                        <h3 class="card__title">Guardería</h3>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti nisi reprehenderit illum! Ratione vero quod delectus consequatur cupiditate accusantium aut temporibus rem laboriosam ipsam provident nulla, dicta nisi quam.</p>
+                        <a href="https://walink.co/da4406"  class="card__link" target="_blank">Preguntar ahora</a>
+                    </article>
+
+                    <article class="portafolio__card">
+                        <img src="img/card2.jpg" alt="" class="card__img">
+                        <h3 class="card__title">Hotel canino</h3>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti nisi reprehenderit illum! Ratione vero quod delectus consequatur cupiditate accusantium aut temporibus rem laboriosam ipsam provident nulla, dicta nisi quam.</p>
+                        <a href="https://walink.co/da4406" class="card__link" target="_blank">Preguntar ahora</a>
+                    </article>
+
+                    <article class="portafolio__card">
+                        <img src="img/card3.jpg" alt="" class="card__img">
+                        <h3 class="card__title">Guardería medicada</h3>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti nisi reprehenderit illum! Ratione vero quod delectus consequatur cupiditate accusantium aut temporibus rem laboriosam ipsam provident nulla, dicta nisi quam.</p>
+                        <a href="https://walink.co/da4406" class="card__link" target="_blank">Preguntar ahora</a>
+                    </article>
+
+                    <article class="portafolio__card">
+                        <img src="img/card4.jpg" alt="" class="card__img">
+                        <h3 class="card__title">Hotel medicado</h3>
+                        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti nisi reprehenderit illum! Ratione vero quod delectus consequatur cupiditate accusantium aut temporibus rem laboriosam ipsam provident nulla, dicta nisi quam.</p>
+                        <a href="https://walink.co/da4406" class="card__link" target="_blank">Preguntar ahora</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="frase">
+            <div class="frase__container">
+                <h2 class="frase__text">Hacemos feliz a tu mascota</h2>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery__container container">
+                <h2 class="title">Nuestro trabajo</h2>
+                <div class="gallery__pictures">
+                    <img src="img/gallery1.jpg" alt="Cargando imagen..." class="gallery__img">
+                    <img src="img/gallery2.jpg" alt="Cargando imagen..." class="gallery__img">
+                    <img src="img/gallery3.jpg" alt="Cargando imagen..." class="gallery__img">
+                    <img src="img/gallery4.jpg" alt="Cargando imagen..." class="gallery__img">
+                    <img src="img/gallery5.jpg" alt="Cargando imagen..." class="gallery__img">
+                    <img src="img/gallery6.jpg" alt="Cargando imagen..." class="gallery__img">
+                </div>
+                <video controls muted class="gallery__video">
+                    <source src="img/guarderia.mp4" type="video/mp4" class="gallery__mp4" />
+                </video>
+            </div>
+        </section>
+
     </main>
 
-    <footer class="footer">
-      <section class="ubicacion">
-        <h3>¿Dónde nos encontramos?</h3>
-        <p>Calle ## No. ## ##</p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7952.692410682619!2d-74.23608646218709!3d4.709786718669554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f77fa87314511%3A0x58313b3fcdedeab8!2sVilla%20Olimpica!5e0!3m2!1ses!2sco!4v1654394158093!5m2!1ses!2sco"
-          width="400"
-          height="300"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </section>
-      <section class="redes">
-        <h3>Siguenos en nuestra redes sociales</h3>
-        <ul>
-          <li>
-            <a href="#">
-              <img src="img/facebook.svg" alt="Facebook" />
-              <p>Facebook</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="img/instagram.svg" alt="Instagram" />
-              <p>Instagram</p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="img/wapp.svg" alt="WhatsApp" />
-              <p>WhatsApp</p>
-            </a>
-          </li>
-        </ul>
-        <h4>Telefono: <small> 3-- --- --- </small></h4>
-      </section>
+    <footer class="footer" id="contact">
+        <div class="footer__container container">
+            <picture class="footer__picture">
+                <img src="img/Social bio.svg" alt="" class="footer__img">
+            </picture>
+            <div class="footer__texts">
+                <h2 class="title footer__title">Contactanos</h2>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/profile.php?id=100072422586476" class="footer__link" target="_blank">
+                        <img src="img/facebook.svg" alt="facebook lupik" class="footer__social__img">
+                    </a>
+                    <a href="https://www.instagram.com/guarderia_lupik/" class="footer__link" target="_blank">
+                        <img src="img/instagram.svg" alt="instagram lupik" class="footer__social__img">
+                    </a>
+                    <a href="https://walink.co/da4406" class="footer__link" target="_blank">
+                        <img src="img/whatsapp.svg" alt="whatsapp lupik" class="footer__social__img">
+                    </a>
+                </div>
+                <h3 class="footer__subtitle">Estamos ubicados aquí</h3>
+                <iframe class="footer__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15905.109926834317!2d-74.2336999856683!3d4.721790949935443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f77fa87314511%3A0x58313b3fcdedeab8!2sVilla%20Olimpica!5e0!3m2!1ses!2sco!4v1656362974531!5m2!1ses!2sco"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </footer>
-  </body>
+
+</body>
 </html>

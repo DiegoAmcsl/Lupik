@@ -346,7 +346,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .gallery__video{
-    width: 85%;
+    width: 100%;
     box-shadow: var(--shadow);
     border-radius: var(--radius);
 }
